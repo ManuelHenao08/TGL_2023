@@ -160,7 +160,7 @@ def main():
     except KeyboardInterrupt as error :
         print("\n CTRL-C pressed , thanks for executing getting_started_2.py script")
     except:
-        print("\n Input Variables are not numbers, please try again")
+        print("\n Error catched, please try again")
 
     print("Exit, thanks for executing getting_started_2.py script")
 
