@@ -142,7 +142,7 @@ def main():
             if user_input == "1":  # Temperature Conversion
                 while not mode:
                     print("-------")   
-                    print("Choose choose the temperature scale from which you want to make conversions: ")
+                    print("Choose the temperature scale from which you want to make conversions: ")
                     print("Celsius -> (1)")
                     print("Fahrenheit -> (2)")
                     print("Kelvin -> (3)")
@@ -158,11 +158,11 @@ def main():
                 flag = True
 
     except KeyboardInterrupt as error :
-        print("\n CTRL-C pressed , thanks for executing second.py script")
+        print("\n CTRL-C pressed , thanks for executing getting_started_2.py script")
     except:
         print("\n Input Variables are not numbers, please try again")
 
-    print("Exit, thanks for executing second.py script")
+    print("Exit, thanks for executing getting_started_2.py script")
 
 
 if __name__ == '__main__':

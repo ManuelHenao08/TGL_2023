@@ -103,7 +103,7 @@ def main():
     except ZeroDivisionError as e:
         print("\n Error Division by cero:", e)
     except KeyboardInterrupt as error :
-        print("\n CTRL-C pressed , thanks for executing first.py script")
+        print("\n CTRL-C pressed , thanks for executing getting_started_1.py script")
     except:
         print("\n Input Variables are not numbers, please try again")
 
